@@ -307,7 +307,7 @@ b. When <offering_id> is offered by <instructor_id>
 
 c. When instructor is also an advisor
 
-*Inherit from advisor group*
+*Inherit from advisor group *
 
 | Table | Permissions |
 | -- | -- |
