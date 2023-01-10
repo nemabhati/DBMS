@@ -46,9 +46,9 @@ call start_withdraw(); -- run as dean_acad
 
 call stop_withdraw(); -- run as dean_acad
 
-call update_credit_grades('/home/aman/Documents/btech/cs301/project/Academic-Portal/grades/2021_1_1.csv', 1); -- run by 2015csp0001
-call update_credit_grades('/home/aman/Documents/btech/cs301/project/Academic-Portal/grades/2021_1_2.csv', 2); -- run by 2010eep0003
-call update_credit_grades('/home/aman/Documents/btech/cs301/project/Academic-Portal/grades/2021_1_3.csv', 3); -- run by 2014mep0001
+call update_credit_grades('/home/nema/Documents/btech/cs301/project/Academic-Portal/grades/2021_1_1.csv', 1); -- run by 2015csp0001
+call update_credit_grades('/home/nema/Documents/btech/cs301/project/Academic-Portal/grades/2021_1_2.csv', 2); -- run by 2010eep0003
+call update_credit_grades('/home/nema/Documents/btech/cs301/project/Academic-Portal/grades/2021_1_3.csv', 3); -- run by 2014mep0001
 
 -- run as dean_acad
 call generate_transcript('2021csb1113', 1, 2021);
